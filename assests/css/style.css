@@ -9,7 +9,7 @@
 
 :root {
     --nav-background-color: #1D3557;
-    --nav-color: #F1FAEE;
+    --nav-color: #58ef25;
     --link-background-color: #457B9D;
     --link-color: #E63946;
 }
@@ -18,7 +18,9 @@ body {
     height: 100vh;
     background-position: center;
     margin-top: 70px;
-    margin-bottom:50px
+    margin-bottom:50px;
+    background-color: #000;
+    color:#fff;
 }
 
 /* header nav bar */
@@ -115,7 +117,7 @@ header label {
 
 /* footer */
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
@@ -135,7 +137,7 @@ footer .social-media ul {
 footer .social-media ul li {
     position: relative;
     float: left;
-    background-color:#00ff01;
+    background-color:#00ff02;
 }
 
 footer .social-media ul li a {
