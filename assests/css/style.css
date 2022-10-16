@@ -18,9 +18,9 @@ body {
     height: 100vh;
     background-position: center;
     margin-top: 70px;
-    margin-bottom:50px;
-    background-color: #000;
-    color:#fff;
+    margin-bottom: 50px;
+    background-color: #000 !important;
+    color: #fff;
 }
 
 /* header nav bar */
@@ -84,7 +84,7 @@ header label {
 }
 
 
-@media (max-width: 1045px) {
+@media (max-width: 720px) {
     header {
         padding: 10px;
         font-size: 12px;
@@ -110,6 +110,22 @@ header label {
 
     #menu-bar:checked~.navbar {
         display: initial;
+    }
+
+    /* footer */
+    footer {
+        display: block;
+    }
+
+    footer .social-media {
+        display: grid;
+    }
+    footer .pages{
+        position: relative;
+    }
+    footer .copyright{
+        position: relative;
+        bottom:0;
     }
 }
 
@@ -137,23 +153,45 @@ footer .social-media ul {
 footer .social-media ul li {
     position: relative;
     float: left;
-    background-color:#00ff02;
+    text-decoration: none;
+    padding-bottom: 15px;
 }
 
 footer .social-media ul li a {
     padding: 10px;
-    color: var(--nav-color);
+    color: #fff;
     display: flex;
     text-decoration: none;
 }
 
-.pages{
-    display:flex
+footer .pages ul {
+    list-style: none;
 }
-.copyright {
+
+footer .pages ul li {
+    position: relative;
+    float: left;
+    margin: 5px;
+}
+
+footer .pages ul li a {
+    font-size: 15px;
+    padding: 5px;
+    color: #000;
+    display: block;
+    text-decoration: none;
+}
+
+footer .pages ul li a:hover {
+    color: var(--nav-color);
+}
+
+footer .copyright p {
     position: relative;
     bottom: 0;
-    margin-top: 100px;
+    margin-top: 50px;
+    padding-top: 20px;
+    display: inline-flex;
     align-items: center;
     text-align: center;
 }

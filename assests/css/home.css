@@ -1,7 +1,23 @@
-.banner{
+body{
+    font: 'Roboto';
+}
+.banner {
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
+    background-color: #040303;
+}
+
+main h1 {
+    text-align: center;
+    padding:15px;
+    color: rgba(10, 234, 250, 0.986);
+}
+main p{
+    align-items: center;
+    font-size: 20px;
+    padding: 25px;
+    margin: 5px;
 }

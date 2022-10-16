@@ -1,18 +1,57 @@
-.clg_logo{
-    width: 100%;
-    align-items: center;
-    padding-left:5%;
-    padding-right: 5%;
+.clg_logo {
+  width: 100%;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
 
 }
-.rounded{
-border-radius:2em;
-width: 200px;
+
+.rounded {
+  border-radius: 20em;
+  width: 200px;
+  padding: 25px 0;
 }
-.photo{
-  border-radius:20em;      
+
+h1 {
+  padding: 15px 0;
+  color: #ff0;
+  text-align: center;
 }
-.photo h1{
-    align-items: center;
-    width: 250px;
+
+h3 {
+  color: #0ff;
+  text-align: center;
+}
+
+section .description {
+  align-items: center;
+  display: block;
+  padding: 15px;
+  margin: 15px;
+}
+
+section {
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  .clg_logo{
+    height:250px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;;
+  }
+  .rounded{
+    border-radius:2em;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+  }
+  section{
+    display: block;
+  }
+  section .description{
+    align-self: center;
+  }
 }
