@@ -1,13 +1,12 @@
 .clg_logo {
-  width: 100%;
-  align-items: center;
-  padding-left: 5%;
-  padding-right: 5%;
-
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .rounded {
-  border-radius: 20em;
+  border-radius: 20px;
   width: 200px;
   padding: 25px 0;
 }
@@ -33,25 +32,38 @@ section .description {
 section {
   display: flex;
 }
-
+main button{
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #0ff;
+  border-radius: 300px;
+}
+main button:hover{
+  background-color: #0f0
+}
 @media (max-width: 900px) {
-  .clg_logo{
-    height:250px;
+  .clg_logo {
+    height: 250px;
     width: 100%;
     padding: 0px;
-    margin: 0px;;
+    margin: 0px;
+    ;
   }
-  .rounded{
-    border-radius:2em;
+
+  .rounded {
+    border-radius: 2em;
     display: block;
     margin-right: auto;
     margin-left: auto;
     width: 50%;
   }
-  section{
+
+  section {
     display: block;
   }
-  section .description{
+
+  section .description {
     align-self: center;
   }
 }
