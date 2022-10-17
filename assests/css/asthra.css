@@ -6,3 +6,9 @@ h2{
     color :#0ff;
     padding: 15px 0;
 }
+img{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}

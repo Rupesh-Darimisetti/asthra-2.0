@@ -21,6 +21,14 @@ main button{
 main button:hover{
     background-color: #0f0
 }
+#email{
+    color: #0ff
+}
 footer{
     position: fixed;
+}
+@media (max-width: 900px) {
+    footer{
+        position: relative;
+    }
 }
