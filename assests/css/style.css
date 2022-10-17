@@ -15,12 +15,13 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     background-position: center;
     margin-top: 70px;
-    margin-bottom: 50px;
     background-color: #000 !important;
     color: #fff;
+    display:flex;
+    flex-direction: column;
 }
 
 /* header nav bar */
@@ -111,73 +112,30 @@ header label {
     #menu-bar:checked~.navbar {
         display: initial;
     }
-
-    /* footer */
-    #footer {
-        background: #133667 !important;
-        color: white;
-        padding: 1rem;
-        display: block !important;
-        text-align: center !important;
-    }
-
-    #footer .social-media {
-        display: flex;
-        width: 100%;
-    }
-
-    #footer .social-media ul li {
-        margin: 0 15px;
-    }
-
-    #footer .social-media a {
-        border-radius: 100px;
-        background-color: #000;
-    }
-
-    #footer .social-media ul {
-        margin-top: 30px;
-        margin-bottom: 10px;
-    }
-
-    #footer .social-media ul li a:hover {
-        color: rgb(208, 214, 13) !important;
-    }
-
-    #footer .pages {
-        display: grid;
-        text-align: left;
-        justify-content: center !important
-    }
-
-    #footer .copyright {
-        position: relative;
-        bottom: 0;
-        padding: 10px;
-    }
 }
 
 /* header nav bar close */
 
+main{
+    margin-top: 0.5rem;
+}
+
+.banner{
+ padding: 0;
+}
+
 /* footer */
 footer {
-
-    margin-top: 30px;
+    margin-top: auto;
 }
 
 #footer {
     position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
     background: var(--link-background-color);
     box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
-    padding: 0px 7%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 1rem;
+    flex-direction: column;
     z-index: 1000;
-    padding: 15px;
 }
 
 #footer .social-media ul {
@@ -209,6 +167,11 @@ footer {
     color: rgb(208, 214, 13);
 }
 
+#footer .social-media, .pages, .copyright{
+    display: flex;
+    justify-content: center;
+}
+
 #footer .pages ul {
     list-style: none;
 }
@@ -231,6 +194,15 @@ footer {
     color: var(--nav-color);
 }
 
+#footer hr{
+    width: 80%;
+    margin: auto;
+}
+
+#footer .copyright{
+    padding-top: 1rem;
+}
+
 #footer .copyright p {
     position: relative;
     bottom: 0;
@@ -239,4 +211,5 @@ footer {
     display: inline-flex;
     align-items: center;
     text-align: center;
+    padding: 5px;
 }
