@@ -3,10 +3,7 @@ body{
 }
 .banner {
     width: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: 0 5%;
     background-color: #040303;
 }
 
@@ -20,4 +17,5 @@ main p{
     font-size: 20px;
     padding: 25px;
     margin: 5px;
+    text-align: center;
 }
