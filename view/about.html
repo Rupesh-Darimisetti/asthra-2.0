@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="In This one can call us if you have any doubts abot the event">
     <title>About Us</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../assests/css/style.css">
     <link rel="stylesheet" href="../assests/css/about.css">
 </head>
@@ -22,6 +23,16 @@
                 <li><a href="./about.html" class="nav-active">About us</a></li>
                 <li><a href="./asthra.html">ASTHRA</a></li>
                 <li><a href="./contact.html">Contact us</a></li>
+                <li>
+                    <div class="nav-content one-quarter" id="switch">
+                        <input type="checkbox" class="checkbox" id="chk" />
+                        <label class="label" for="chk">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                            <div class="ball"></div>
+                        </label>
+                    </div>
+                </li>
                 <!-- <li><a href=""></a></li> -->
             </ul>
         </nav>
@@ -160,13 +171,13 @@
                         <em class="fa fa-envelope"></em></a>
                 </li>
                 <li><a href="https://www.facebook.com/groups/419019676663393/" target="_blank">
-                        <em class="fa fa-facebook"></em></a>
+                        <em class="fab fa-facebook"></em></a>
                 </li>
                 <li><a href="https://www.instagram.com/bits_mechanical/" target="_blank">
-                        <em class="fa fa-instagram"></em></a>
+                        <em class="fab fa-instagram"></em></a>
                 </li>
                 <li><a href="https://youtube.com/channel/UCBFc-dlQToTwvgODoAkUUmQ" target="_blank">
-                        <em class="fa  fa-youtube"></em></a>
+                        <em class="fab  fa-youtube"></em></a>
                 </li>
             </ul>
         </div>
@@ -185,6 +196,7 @@
             Baba Institute of Technology and Sciences
         </div>
     </footer>
+    <script src="../assests/js/darkTheme.js"></script>
 </body>
 
 </html>
