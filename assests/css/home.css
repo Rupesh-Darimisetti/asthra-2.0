@@ -19,3 +19,9 @@ main p{
     margin: 5px;
     text-align: center;
 }
+
+.videos{
+    display: flex;
+    justify-content:space-around;
+    padding: 1rem;
+}
