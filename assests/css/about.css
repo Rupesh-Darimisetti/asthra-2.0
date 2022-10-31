@@ -8,12 +8,12 @@
 .rounded {
   border-radius: 20px;
   width: 200px;
-  padding: 25px 0;
+  padding: 25px 0 0 25px;
 }
 
 h1 {
   padding: 15px 0;
-  color: #ff0;
+  color: rgb(63, 63, 2);
   text-align: center;
 }
 
@@ -42,6 +42,7 @@ main button{
 main button:hover{
   background-color: #0f0
 }
+
 @media (max-width: 900px) {
   .clg_logo {
     height: 250px;
